@@ -11,12 +11,12 @@
         "default_title": "Think twice for this domain"
     },
     "background": {
-        "scripts": ["thinkTwice.js"],
-        "persistent": false
+        "scripts": ["thinkTwice.js"]
     },
     "permissions": [
         "activeTab",
         "webRequest",
+        "webRequestBlocking",
         "<all_urls>"
     ]
 }
