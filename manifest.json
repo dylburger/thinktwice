@@ -10,6 +10,10 @@
         "default_popup": "popup.html",
         "default_title": "Think twice for this domain"
     },
+    "background": {
+        "scripts": ["thinkTwice.js"],
+        "persistent": false
+    },
     "permissions": [
         "activeTab",
         "webRequest",
