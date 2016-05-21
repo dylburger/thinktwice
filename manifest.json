@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+
+    "name": "ThinkTwice",
+    "description": "ThinkTwice is a Chrome extension that forces you to think twice about visiting time-wasting sites",
+    "version": "1.0",
+
+    "browser_action": {
+        "default_icon": "tt.png",
+        "default_popup": "popup.html"
+    },
+    "permissions": [
+        "activeTab",
+        "webRequest",
+        "*"
+    ]
+}
