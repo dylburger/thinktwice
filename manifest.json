@@ -7,7 +7,8 @@
 
     "browser_action": {
         "default_icon": "tt.png",
-        "default_popup": "popup.html"
+        "default_popup": "popup.html",
+        "default_title": "Think twice for this domain"
     },
     "permissions": [
         "activeTab",
