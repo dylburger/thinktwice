@@ -1,6 +1,7 @@
 // thinkTwice.js - event page for main redirect logic
 
 chrome.webRequest.onBeforeRequest.addListener(
-  function(details) { return {cancel: true}; },
+  function(details) { return {redirectUrl: chrome.extension.getURL("thinktwice.html")}; },
   {urls: ["*://www.facebook.com/*"]},
-  ["blocking"]);
+  ["blocking"]
+);
